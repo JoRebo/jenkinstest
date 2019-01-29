@@ -16,14 +16,21 @@ import java.util.List;
 class LeaderBoardController {
 
     private final LeaderBoardService leaderBoardService;
-    private int lala;
 
     public LeaderBoardController(final LeaderBoardService leaderBoardService) {
         this.leaderBoardService = leaderBoardService;
     }
+    
+    
 
     @GetMapping
     public List<LeaderBoardRow> getLeaderBoard() {
         return leaderBoardService.getCurrentLeaderBoard();
+    }
+    
+    public void lala() {
+        for (int i =0; i<10;i++) {
+            i=0;
+        }
     }
 }
