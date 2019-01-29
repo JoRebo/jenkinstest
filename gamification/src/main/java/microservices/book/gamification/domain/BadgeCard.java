@@ -38,4 +38,4 @@ public final class BadgeCard {
         this(null, userId, System.currentTimeMillis(), badge);
     }
 
-}
+
