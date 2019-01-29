@@ -29,8 +29,9 @@ class LeaderBoardController {
     }
     
     public void lala() {
-        for (int i =0; i<10;i++) {
+        for (String i =0; i<10;i++) {
             i=0;
+            i--
         }
     }
 }
