@@ -1,6 +1,12 @@
 pipeline {
   agents any
   stage('Checkout-git') {
-    git poll: true, url:'https://github.com/JoRebo/jenkinstest.git'
+    echo 'get git'
+  }
+  stage('SonarTest') {
+    echo 'Sonar Test'
+  }
+  stage('OtherThing') {
+    echo 'Other Thing'
   }
 }
