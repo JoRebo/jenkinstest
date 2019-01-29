@@ -25,10 +25,6 @@ public final class BadgeCard {
     @Column(name = "BADGE_ID")
     private final Long badgeId;
 
-    private final Long userId;
-    private final long badgeTimestamp;
-    private final Badge badge;
-
     // Empty constructor for JSON / JPA
     public BadgeCard() {
         this(null, null, 0, null);
@@ -39,3 +35,4 @@ public final class BadgeCard {
     }
 
 
+}
