@@ -19,6 +19,12 @@ class LeaderBoardController {
 
     public LeaderBoardController(final LeaderBoardService leaderBoardService) {
         this.leaderBoardService = leaderBoardService;
+        try {
+            int i;
+        }
+        catch(Exception e) {
+            int j;
+        }
     }
     
     
@@ -28,10 +34,4 @@ class LeaderBoardController {
         return leaderBoardService.getCurrentLeaderBoard();
     }
     
-    public void lala() {
-        for (String i =0; i<10;i++) {
-            i=0;
-            i--
-        }
-    }
 }
