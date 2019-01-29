@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('SCM') {
+            steps {
+                git url: 'https://github.com/JoRebo/jenkinstest.git'
+            }
+        }
         stage('Build') {
             steps {
                 script {
