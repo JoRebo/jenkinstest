@@ -16,6 +16,7 @@ import java.util.List;
 class LeaderBoardController {
 
     private final LeaderBoardService leaderBoardService;
+    private int lala;
 
     public LeaderBoardController(final LeaderBoardService leaderBoardService) {
         this.leaderBoardService = leaderBoardService;
