@@ -1,2 +1,2 @@
 # Gatillando sonar a través de Jenkins
-Test de pipeline automatica 3
+Test de pipeline automatica 5
