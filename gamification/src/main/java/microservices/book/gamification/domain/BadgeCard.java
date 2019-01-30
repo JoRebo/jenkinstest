@@ -28,6 +28,15 @@ public final class BadgeCard {
     // Empty constructor for JSON / JPA
     public BadgeCard() {
         this(null, null, 0, null);
+        
+        public void test() {
+        try{
+            int i = 0;
+        }
+        catch(Exception e) {
+            System.out.println(e);
+        }
+    }
     }
 
     public BadgeCard(final Long userId, final Badge badge) {
