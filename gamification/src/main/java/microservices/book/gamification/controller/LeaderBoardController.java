@@ -16,17 +16,10 @@ import java.util.List;
 class LeaderBoardController {
 
     private final LeaderBoardService leaderBoardService;
+    public int Patito = 1;
 
     public LeaderBoardController(final LeaderBoardService leaderBoardService) {
         this.leaderBoardService = leaderBoardService;
-        
-        try {
-            int i;
-        }
-        catch(Exception e) {
-            int j;
-        }
-        
     }
     
     
