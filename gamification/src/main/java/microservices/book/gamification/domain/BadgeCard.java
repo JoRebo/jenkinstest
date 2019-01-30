@@ -33,6 +33,15 @@ public final class BadgeCard {
     public BadgeCard(final Long userId, final Badge badge) {
         this(null, userId, System.currentTimeMillis(), badge);
     }
+    
+    public void test() {
+        try{
+            int i = 0;
+        }
+        catch(Exception e) {
+            System.out.println(e);
+        }
+    }
 
 
 }
