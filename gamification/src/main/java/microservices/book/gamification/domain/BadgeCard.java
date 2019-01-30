@@ -34,14 +34,7 @@ public final class BadgeCard {
         this(null, userId, System.currentTimeMillis(), badge);
     }
     
-    public void test() {
-        try{
-            int i = 0;
-        }
-        catch(Exception e) {
-            System.out.println(e);
-        }
-    }
+    
 
 
 }
