@@ -19,12 +19,7 @@ class LeaderBoardController {
 
     public LeaderBoardController(final LeaderBoardService leaderBoardService) {
         this.leaderBoardService = leaderBoardService;
-        try {
-            int i;
-        }
-        catch(Exception e) {
-            int j;
-        }
+        
         
     }
     
